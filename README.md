@@ -1,5 +1,5 @@
 # deviceReset
-Implementacion de un código que simula "Desenchufar" un Dispositivo USB en GNU/Linux.
+Implementacion de un script que simula "Desenchufar" un Dispositivo USB en GNU/Linux.
 
 ### ¿ Como funciona ?
 
