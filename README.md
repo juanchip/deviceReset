@@ -3,8 +3,8 @@ Implementacion de un script que simula "Desenchufar" un Dispositivo USB en GNU/L
 
 ### ¿ Como funciona ?
 
-Cuando tenemos un problema con un dispositivo USB en sistemas GNU/Linux, ya sea que se quedó "Frizado" o bien, no responde a nuestros comandos (Ej, un Mouse, un Arduino, Un Teclado) , podemos utilizar este pequeño script para sacarnos del apuro, por pura comodidad de no desconectar el puerto USB.
-El script directamente ataca el control del IO del sistema, borrando todo registro del mismo, induciendo un re-registro del mismo, borrándose todas las configuraciones anteriores y los programas anteriores.
+Cuando tenemos un problema con un dispositivo USB en sistemas GNU/Linux, ya sea que se quedó "Frizado" o bien, no responde a nuestros comandos (Ejemplo: un Mouse, un Arduino, Un Teclado, etc.) , podemos utilizar este pequeño script para sacarnos del apuro, por pura comodidad de no desconectar el puerto USB.
+El script directamente ataca el control de IO del sistema en custión, borrando todo registro del mismo, induciendo un re-registro y eliminando todas las configuraciones anteriores del Dispositivo.
 
 ### Requisitos
 - GCC
