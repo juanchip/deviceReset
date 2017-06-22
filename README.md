@@ -31,7 +31,7 @@ lsusb -t
         |__ Port 3: Dev 6, If 0, Class=Vendor Specific Class, Driver=ath9k_htc, 
 
 ```
-Ejecutar el programa con privilegios de administrador (sudo), sustituí el <busID> y el <DeviceID > del dipositivo que necesites
+Ejecutar el programa con privilegios de administrador (sudo), sustituí el **busID** y el **DeviceID** del dipositivo que necesites
 
 ```
 sudo ./usbreset /dev/bus/usb/001/006 
